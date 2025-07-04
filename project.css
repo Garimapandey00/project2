@@ -1,0 +1,57 @@
+.style {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vw;
+    /* margin-right: 400px; */
+}
+.st{
+    text-align: center;
+    display: inline-block;
+}
+.design{
+    background-color: rgb(248, 245, 242);
+    text-align: center;
+    
+}
+.name{
+    text-align: center;
+    background-color: rgb(223, 220, 217);
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.about {
+    margin-left: 290px;
+}
+.button{
+    text-align: center;
+}
+.t{
+    font-size: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.n{
+    font-size: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.r{
+    font-size: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.style a {
+    color: aliceblue;
+}
