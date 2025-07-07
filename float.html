@@ -23,28 +23,45 @@
             /* justify-content: space-evenly; */
             /* justify-content: space-around; */
             /* flex-wrap: wrap; (box derai vayepar container bata tala janxa vanera)*/
-            justify-content: center;
-            align-items: center;
+             /* justify-content: center;  */
+            /* align-items: center; */
+             /* align-content: center;  */
+             /* flex-wrap: wrap; */
         }
        .first {
                 color: white;
              background-color: rgb(46, 46, 235);
-             height: 100px;
-             width: 100px;
+             height: 350px;
+             width: 350px;
               /* float: right; */
+              /* align-self: flex-start; */
         }
         .second{
             color: white;
              background-color: rgb(10, 10, 54);
-             height: 100px;
-             width: 100px;  
+             height: 350px;
+             width: 350px;  
+             /* align-self: center; */
+             flex-shrink: 4;
         }
         .Third{
             color: white;
             background-color: cornflowerblue;
-            height: 100px;
-            width: 100px;  
+            height: 350px;
+            width: 350px; 
+            /* align-self: flex-end;  */
+            flex-shrink: 2;
         }
+        /* .fourth{
+            background-color: rgb(78, 151, 151);
+             height: 100px;
+            width: 150px; 
+        }
+        .fifth{
+            background-color: rgb(44, 94, 76);
+             height: 100px;
+            width: 150px; 
+        } */
     </Style>
 </head>
 <body>
@@ -53,6 +70,8 @@
      <div class="first" id="BOX"> BOX1</div>
      <div class="second" id="BOX"> BOX2 </div>
      <div class="Third" id="box">BOX3 </div>
+      <!-- <div class="fourth" id="BOX"> BOX4 </div>
+     <div class="fifth" id="box">BOX5 </div> -->
     </div>
 </body>
 </html>
